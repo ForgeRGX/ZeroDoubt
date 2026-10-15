@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+
+      - name: Sintaxis PHP
+        run: find . -name '*.php' -not -path './.git/*' -print0 | xargs -0 -n1 php -l
+
+      - name: Traducciones ES/EN
+        run: php scripts/check_translations.php
+
+      - name: Validar docker-compose
+        run: |
+          cp .env.example .env
+          cp docker-compose.yml.example docker-compose.yml
+          docker compose config -q
+
+      - name: Construir imagen web
+        run: docker compose build web
