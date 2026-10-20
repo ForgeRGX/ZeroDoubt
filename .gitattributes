@@ -1,0 +1,5 @@
+# Finales de línea LF siempre (los .sh fallan en Docker/Linux con CRLF)
+* text=auto eol=lf
+*.png binary
+*.zip binary
+*.ico binary

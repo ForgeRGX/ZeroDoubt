@@ -1,0 +1,22 @@
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+
+# Tu copia local del compose (la plantilla es docker-compose.yml.example)
+docker-compose.yml
+!docker-compose.yml.example
+
+# Copias de seguridad de la base de datos (contienen datos financieros)
+backups/*
+!backups/.gitkeep
+
+# Editores y sistema operativo
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
