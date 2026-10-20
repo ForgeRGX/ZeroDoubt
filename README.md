@@ -16,23 +16,23 @@ Add screenshots of the application below to showcase its main features and user 
 
 ### Dashboard
 
-![Zero Doubt Dashboard](docs/screenshots/dashboard.png)
+![Zero Doubt Dashboard](docs/images/dashboard.png)
 
 ### Transactions
 
-![Income and Expenses](docs/screenshots/transactions.png)
+![Income and Expenses](docs/images/transactions.png)
 
 ### Reports and Charts
 
-![Financial Reports](docs/screenshots/reports.png)
+![Financial Reports](docs/images/reports.png)
 
 ### Categories and Budgets
 
-![Categories and Budgets](docs/screenshots/categories.png)
+![Categories and Budgets](docs/images/categories.png)
 
 ### Recurring Transactions
 
-![Recurring Transactions](docs/screenshots/recurring.png)
+![Recurring Transactions](docs/images/recurring.png)
 
 ## Features
 
