@@ -2,10 +2,10 @@
 
 **A web application for managing your monthly income and expenses.**
 
-Built with PHP 8.3 and MySQL 8.4, and deployed using Docker Compose. It follows the same architecture (controllers, models, views, custom routing, no framework), UI style, and conventions as [TR Tracking](https://github.com/ForgeRGX/TR-Tracking).
+Built with PHP 8.5.12 and MySQL 8.4, and deployed using Docker Compose. It follows the same architecture (controllers, models, views, custom routing, no framework), UI style, and conventions as [TR Tracking](https://github.com/ForgeRGX/TR-Tracking).
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PHP-8.3-777BB4?logo=php&logoColor=white" alt="PHP 8.3">
+  <img src="https://img.shields.io/badge/PHP-8.5.12-777BB4?logo=php&logoColor=white" alt="PHP 8.5">
   <img src="https://img.shields.io/badge/MySQL-8.4-4479A1?logo=mysql&logoColor=white" alt="MySQL 8.4">
   <img src="https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white" alt="Docker Compose">
 </p>
